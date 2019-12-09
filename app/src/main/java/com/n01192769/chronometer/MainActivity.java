@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
                 seconds = chronometer.getBase() - SystemClock.elapsedRealtime();
                 chronometer.stop(); //stops chronometer
             }
-
         });
 //button to reset the chronometer back to 0
         buttonReset.setOnClickListener(new View.OnClickListener() {
