@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         buttonStop = findViewById(R.id.stopbutton);
         buttonReset = findViewById(R.id.resetbutton);
         chronometer = findViewById(R.id.chronometer);
-
 //button created to start chronometer so it counts up from base time of 0
         buttonStart.setOnClickListener(new View.OnClickListener() {
             @Override
